@@ -32,12 +32,12 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container">
-        <h1><a href="index.html">Agustín Nicolás Guillén</a></h1>
-        <h2>I'm a trainee <strong>Front-End Developer & UX/UI Designer</strong></h2>
-        <h2><em>La Plata, Argentina</em></h2>
+        <h1 class="slide-right"><a href="index.html">Agustín Nicolás Guillén</a></h1>
+        <h2 class="slide-right2">I'm a trainee <strong>Front-End Developer & UX/UI Designer</strong></h2>
+        <h2 class="slide-right3"><em>La Plata, Argentina</em></h2>
 
         <nav id="navbar" class="navbar">
-          <ul>
+          <ul class="text-focus-in">
             <li><a class="nav-link active" href="#header">Home</a></li>
             <li><a class="nav-link" href="#sobremi">About</a></li>
             <li><a class="nav-link" href="#cv">Curriculum Vitae</a></li>
@@ -47,13 +47,13 @@
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
-        <div class="social-links">
+        <div class="redes-links text-focus-in">
           <a href="https://www.linkedin.com/in/agustin-nicolas-guillen/" id="linkedin"><img src="assets/img/iconos/linkedin.png" class="redes"></img></a>
           <a href="https://www.github.com/agustinguillen" id="github"><img src="assets/img/iconos/github.png" class="redes"></img></a>
           <a href="https://www.behance.net/agustinnguillen" id="behance"><img src="assets/img/iconos/behance.png" class="redes"></img></a>
         </div>
 
-        <div id="divIdioma2" class="social-links">
+        <div id="divIdioma2" class="redes-links" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Spanish / Español">
             <a href="index.html"><img id="idioma2" class="redes" src="assets/img/iconos/language.png" alt="Logo de Idioma"></a>
         </div>
     </div>
@@ -66,17 +66,15 @@
     <!-- ======= Sobre Mi ======= -->
     <div class="sobre-mi container">
 
-      <div class="section-title">
+      <div class="seccion-titulo">
         <h2>About</h2>
         <p>I tell you about myself</p>
       </div>
 
       <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.jpg" class="img-fluid" alt="">
-        </div>
+        
         <div class="col-lg-8 pt-4 pt-lg-0 contenido" data-aos="fade-left">
-          <h3>Desarrollo Front End &amp; Diseño UX/UI</h3>
+          <h3>Front End Developer &amp; UX/UI Designer</h3>
           <p class="fst-italic">
             I'm a trainee Front End Developer & UX/UI Designer looking for my first opportunity in the IT world.
           </p>
@@ -94,6 +92,9 @@
             Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
           </p>
         </div>
+        <div class="col-lg-4 sobre-mi-foto" data-aos="fade-right">
+          <img src="assets/img/me.jpg" class="img-fluid" alt="">
+        </div>
       </div>
 
     </div><!-- Fin Sobre Mi -->
@@ -101,11 +102,99 @@
 
     <!-- ======= Skills  ======= -->
     <div class="skills container">
-
-      <div class="sub-section-title">
-        <h2>Skills</h2>
+      
+      <!-- Herramientas Front-End -->
+      <div class="sub-seccion-titulo">
+        <h2>Front-End</h2>
       </div>
 
+      <div class="herramienta">
+        <img src="assets/img/logos/sass.png" alt="logotipo de SASS" class="logo"><br>
+        <span class="skill">SASS</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/bootstrap.png" alt="logotipo de Bootstrap" class="logo"><br>
+        <span class="skill">Bootstrap</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/jquery.png" alt="logotipo de Jquery" class="logo"><br>
+        <span class="skill">Jquery</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/angular.png" alt="logotipo de Angular" class="logo"><br>
+        <span class="skill">Angular</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/vue.png" alt="logotipo de Vue JS" class="logo"><br>
+        <span class="skill">Vue JS</span>
+      </div>
+      
+
+      <!-- Herramientas Diseño -->
+      <div class="sub-seccion-titulo extra">
+        <h2>UX/UI Design</h2>
+      </div>
+
+      <div class="herramienta">
+        <img src="assets/img/logos/illustrator.png" alt="logotipo de Illustrator" class="logo"><br>
+        <span class="skill">Adobe <br>Illustrator</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/photoshop.png" alt="logotipo de Photoshop" class="logo"><br>
+        <span class="skill">Adobe <br>Photoshop</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/xd.png" alt="logotipo de Adobe XD" class="logo"><br>
+        <span class="skill">Adobe XD</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/figma.png" alt="logotipo de Figma" class="logo"><br>
+        <span class="skill">Figma</span>
+      </div>
+
+      <!-- Herramientas Back End y Extras -->
+      <div class="sub-seccion-titulo extra">
+        <h2>Back End</h2>
+      </div>
+
+      <div class="herramienta">
+        <img src="assets/img/logos/mysql.png" alt="logotipo de MySQL" class="logo"><br>
+        <span class="skill">MySQL</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/php.png" alt="logotipo de PHP" class="logo"><br>
+        <span class="skill">PHP</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/node.png" alt="logotipo de Node JS" class="logo"><br>
+        <span class="skill">Node JS</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/mongodb.png" alt="logotipo de Mongo DB" class="logo"><br>
+        <span class="skill">Mongo DB</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/firebase.png" alt="logotipo de Firebase" class="logo"><br>
+        <span class="skill">Firebase</span>
+      </div>
+
+      <div class="sub-seccion-titulo extra">
+        <h2>Extras</h2>
+      </div>
+
+      <div class="herramienta">
+        <img src="assets/img/logos/git.png" alt="logotipo de Git" class="logo"><br>
+        <span class="skill">Git</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/github.png" alt="logotipo de GitHub" class="logo"><br>
+        <span class="skill">GitHub</span>
+      </div>
+
+      <div class="sub-seccion-titulo">
+        <h2>Skills</h2>
+      </div>
+      
       <div class="row skills-content">
 
         <div class="col-lg-6">
@@ -155,101 +244,8 @@
               <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-
-          
-
         </div>
-
       </div>
-      <!-- Herramientas Front-End -->
-      <div class="sub-section-title">
-        <h2>Front-End</h2>
-      </div>
-
-      <div class="herramienta">
-        <img src="assets/img/logos/sass.png" alt="logotipo de SASS" class="logo"><br>
-        <span class="skill">SASS</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/bootstrap.png" alt="logotipo de Bootstrap" class="logo"><br>
-        <span class="skill">Bootstrap</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/jquery.png" alt="logotipo de Jquery" class="logo"><br>
-        <span class="skill">Jquery</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/angular.png" alt="logotipo de Angular" class="logo"><br>
-        <span class="skill">Angular</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/vue.png" alt="logotipo de Vue JS" class="logo"><br>
-        <span class="skill">Vue JS</span>
-      </div>
-      
-
-      <!-- Herramientas Diseño -->
-      <div class="sub-section-title extra">
-        <h2>UX/UI Design</h2>
-      </div>
-
-      <div class="herramienta">
-        <img src="assets/img/logos/illustrator.png" alt="logotipo de Illustrator" class="logo"><br>
-        <span class="skill">Adobe <br>Illustrator</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/photoshop.png" alt="logotipo de Photoshop" class="logo"><br>
-        <span class="skill">Adobe <br>Photoshop</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/xd.png" alt="logotipo de Adobe XD" class="logo"><br>
-        <span class="skill">Adobe XD</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/figma.png" alt="logotipo de Figma" class="logo"><br>
-        <span class="skill">Figma</span>
-      </div>
-
-      <!-- Herramientas Back End y Extras -->
-      <div class="sub-section-title extra">
-        <h2>Back End</h2>
-      </div>
-
-      <div class="herramienta">
-        <img src="assets/img/logos/mysql.png" alt="logotipo de MySQL" class="logo"><br>
-        <span class="skill">MySQL</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/php.png" alt="logotipo de PHP" class="logo"><br>
-        <span class="skill">PHP</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/node.png" alt="logotipo de Node JS" class="logo"><br>
-        <span class="skill">Node JS</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/mongodb.png" alt="logotipo de Mongo DB" class="logo"><br>
-        <span class="skill">Mongo DB</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/firebase.png" alt="logotipo de Firebase" class="logo"><br>
-        <span class="skill">Firebase</span>
-      </div>
-
-      <div class="sub-section-title extra">
-        <h2>Extras</h2>
-      </div>
-
-      <div class="herramienta">
-        <img src="assets/img/logos/git.png" alt="logotipo de Git" class="logo"><br>
-        <span class="skill">Git</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/github.png" alt="logotipo de GitHub" class="logo"><br>
-        <span class="skill">GitHub</span>
-      </div>
-      
-
       
       
     </div><!-- End Skills -->
@@ -260,7 +256,7 @@
   <section id="cv" class="cv">
     <div class="container">
 
-      <div class="section-title">
+      <div class="seccion-titulo">
         <h2>Curriculum Vitae</h2>
         <p>My resume</p>
       </div>
@@ -274,7 +270,7 @@
             <p>
             <ul>
               <li>La Plata, Buenos Aires, Argentina</li>
-              <li>(02622) 15-534166</li>
+              <li>+549 02622 15534166</li>
               <li>agustinnguillen@gmail.com</li>
             </ul>
             </p>
@@ -344,7 +340,7 @@
             </p>
           </div>
           <div class="cv-item">
-            <h4>Administrator Asistant - Constructora Navarro</h4>
+            <h4>Administrative Assistant - Constructora Navarro</h4>
             <h5>2014 - 2016</h5>
             <p><em>Tunuyán, Mendoza</em></p>
             <p>
@@ -376,7 +372,7 @@
   <section id="portfolio" class="portfolio">
     <div class="container">
 
-      <div class="section-title">
+      <div class="seccion-titulo">
         <h2>Portfolio</h2>
         <p>My Projects</p>
       </div>
@@ -384,16 +380,16 @@
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-filtro">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Front-End</li>
-            <li data-filter=".filter-web">UX/UI Design</li>
+            <li data-filter="*" class="filtro-activo">All</li>
+            <li data-filter=".filtro-uxui">Front-End</li>
+            <li data-filter=".filtro-web">UX/UI Design</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-uxui">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -401,13 +397,13 @@
               <p>App</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -415,13 +411,13 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-uxui">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -429,13 +425,13 @@
               <p>App</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-div">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -443,13 +439,13 @@
               <p>Card</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -457,13 +453,13 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-uxui">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -471,13 +467,13 @@
               <p>App</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-div">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -485,13 +481,13 @@
               <p>Card</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-div">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -499,13 +495,13 @@
               <p>Card</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -513,7 +509,7 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -528,7 +524,7 @@
   <section id="contacto" class="contacto">
     <div class="container">
 
-      <div class="section-title">
+      <div class="seccion-titulo">
         <h2>Contacto</h2>
         <p>Contact me</p>
       </div>

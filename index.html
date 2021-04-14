@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Agustín Nicolás Guillén</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Soy Desarrollador Front End & Diseñador UX/UI Trainee buscando mi primer desafío en el mundo IT." name="description">
+  <meta content="frontend, front-end, desarrollo web, developer, ux, ui, diseño, design, argentina, la plata, portfolio, angular, javascript, react, php" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -32,67 +32,69 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container">
-        <h1><a href="index.html">Agustín Nicolás Guillén</a></h1>
-        <h2>Soy trainee de <strong>Desarrollo Front-End & Diseño UX/UI</strong></h2>
-        <h2><em>La Plata, Argentina</em></h2>
+        <h1 class="slide-right"><a href="index.html">Agustín Nicolás Guillén</a></h1>
+        <h2 class="slide-right2 lang" key="descripcion">Soy trainee de <strong key="descripcion-strong">Desarrollo Front-End & Diseño UX/UI</strong></h2>
+        <h2 class="slide-right3"><em>La Plata, Argentina</em></h2>
 
         <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link active" href="#header">Home</a></li>
-            <li><a class="nav-link" href="#sobremi">Sobre Mi</a></li>
+          <ul class="text-focus-in">
+            <li><a class="nav-link active lang" href="#header" key="inicio">Inicio</a></li>
+            <li><a class="nav-link lang" href="#sobremi" key="sobremi">Sobre Mi</a></li>
             <li><a class="nav-link" href="#cv">Curriculum Vitae</a></li>
             <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-link" href="#contacto">Contacto</a></li>
+            <li><a class="nav-link lang" href="#contacto" key="contacto">Contacto</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
-        <div class="social-links">
+        <div class="redes-links text-focus-in">
           <a href="https://www.linkedin.com/in/agustin-nicolas-guillen/" id="linkedin"><img src="assets/img/iconos/linkedin.png" class="redes"></img></a>
           <a href="https://www.github.com/agustinguillen" id="github"><img src="assets/img/iconos/github.png" class="redes"></img></a>
           <a href="https://www.behance.net/agustinnguillen" id="behance"><img src="assets/img/iconos/behance.png" class="redes"></img></a>
         </div>
 
-        <div id="divIdioma" class="social-links">
-          <a href="index.eng.html"><img id="idioma" class="redes" src="assets/img/iconos/language.png" alt="Logo de Idioma"></a>
-        </div>
+        <div id="divIdioma" class="redes-links" data-bs-toggle="tooltip" data-bs-placement="bottom" title="English / Inglés">
+          <button id="traducir"></button>
+            <a href="index.eng.html"><img id="idioma" class="redes" src="assets/img/iconos/language.png" alt="Logo de Idioma"></a>
+          </div>
     </div>
   </header><!-- Fin header -->
  
 
   <!-- ======= Sobre Mi Sección ======= -->
-  <section id="sobremi" class="sobremi">
+  <section id="sobremi" class="sobre-mi">
 
     <!-- ======= Sobre Mi ======= -->
     <div class="sobre-mi container">
 
-      <div class="section-title">
-        <h2>Sobre Mi</h2>
-        <p>Te cuento acerca de mi</p>
+      <div class="seccion-titulo">
+        <h2 class="lang" key="sobremi-titulo">Sobre Mi</h2>
+        <p class="lang" key="sobremi-subtitulo">Te cuento acerca de mi</p>
       </div>
 
       <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 contenido" data-aos="fade-left">
-          <h3>Desarrollo Front End &amp; Diseño UX/UI</h3>
-          <p class="fst-italic">
+        
+        <div class="col-lg-8 pt-4 pt-lg-0 contenido" data-aos="fade-right">
+          <h3 class="lang" key="sobremi-campo">Desarrollo Front End &amp; Diseño UX/UI</h3>
+          <p class="fst-italic lang" key="sobremi-subcampo">
             Soy Desarrollador Front End & Diseñador UX/UI Trainee buscando mi primer desafío en el mundo IT.
           </p>
           <div class="row">
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>+549 2622 534166</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong class="lang" key="sobremi-telefono">Teléfono:</strong> <span>+549 2622 534166</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>agustinnguillen@gmail.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>La Plata, Buenos Aires</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong class="lang" key="sobremi-ciudad">Ciudad:</strong> <span>La Plata, Buenos Aires</span></li>
               </ul>
             </div>
           </div>
-          <p>
+          <p class="lang" key="sobremi-texto">
             Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
             Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
           </p>
+        </div>
+        <div class="col-lg-4 sobre-mi-foto" data-aos="fade-left">
+          <img src="assets/img/me.jpg" class="img-fluid" alt="">
         </div>
       </div>
 
@@ -102,10 +104,101 @@
     <!-- ======= Skills  ======= -->
     <div class="skills container">
 
-      <div class="sub-section-title">
+      <div class="seccion-titulo">
         <h2>Skills</h2>
+        <p class="lang" key="sobremi-habilidades">Mis Habilidades</p>
       </div>
 
+      <!-- Herramientas Front-End -->
+      <div class="sub-seccion-titulo">
+        <h2>Front-End</h2>
+      </div>
+
+      <div class="herramienta">
+        <img src="assets/img/logos/sass.png" alt="logotipo de SASS" class="logo"><br>
+        <span class="skill">SASS</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/bootstrap.png" alt="logotipo de Bootstrap" class="logo"><br>
+        <span class="skill">Bootstrap</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/jquery.png" alt="logotipo de Jquery" class="logo"><br>
+        <span class="skill">Jquery</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/angular.png" alt="logotipo de Angular" class="logo"><br>
+        <span class="skill">Angular</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/vue.png" alt="logotipo de Vue JS" class="logo"><br>
+        <span class="skill">Vue JS</span>
+      </div>
+      
+
+      <!-- Herramientas Diseño -->
+      <div class="sub-seccion-titulo extra">
+        <h2 class="lang" key="sobremi-diseño">Diseño UX/UI</h2>
+      </div>
+
+      <div class="herramienta">
+        <img src="assets/img/logos/illustrator.png" alt="logotipo de Illustrator" class="logo"><br>
+        <span class="skill">Adobe <br>Illustrator</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/photoshop.png" alt="logotipo de Photoshop" class="logo"><br>
+        <span class="skill">Adobe <br>Photoshop</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/xd.png" alt="logotipo de Adobe XD" class="logo"><br>
+        <span class="skill">Adobe XD</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/figma.png" alt="logotipo de Figma" class="logo"><br>
+        <span class="skill">Figma</span>
+      </div>
+
+      <!-- Herramientas Back End y Extras -->
+      <div class="sub-seccion-titulo extra">
+        <h2>Back-End</h2>
+      </div>
+
+      <div class="herramienta">
+        <img src="assets/img/logos/mysql.png" alt="logotipo de MySQL" class="logo"><br>
+        <span class="skill">MySQL</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/php.png" alt="logotipo de PHP" class="logo"><br>
+        <span class="skill">PHP</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/node.png" alt="logotipo de Node JS" class="logo"><br>
+        <span class="skill">Node JS</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/mongodb.png" alt="logotipo de Mongo DB" class="logo"><br>
+        <span class="skill">Mongo DB</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/firebase.png" alt="logotipo de Firebase" class="logo"><br>
+        <span class="skill">Firebase</span>
+      </div>
+
+      <div class="sub-seccion-titulo extra">
+        <h2>Extras</h2>
+      </div>
+
+      <div class="herramienta">
+        <img src="assets/img/logos/git.png" alt="logotipo de Git" class="logo"><br>
+        <span class="skill">Git</span>
+      </div>
+      <div class="herramienta">
+        <img src="assets/img/logos/github.png" alt="logotipo de GitHub" class="logo"><br>
+        <span class="skill">GitHub</span>
+      </div>
+
+      
+      
       <div class="row skills-content">
 
         <div class="col-lg-6">
@@ -156,101 +249,9 @@
             </div>
           </div>
 
-          
-
         </div>
 
       </div>
-      <!-- Herramientas Front-End -->
-      <div class="sub-section-title">
-        <h2>Front-End</h2>
-      </div>
-
-      <div class="herramienta">
-        <img src="assets/img/logos/sass.png" alt="logotipo de SASS" class="logo"><br>
-        <span class="skill">SASS</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/bootstrap.png" alt="logotipo de Bootstrap" class="logo"><br>
-        <span class="skill">Bootstrap</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/jquery.png" alt="logotipo de Jquery" class="logo"><br>
-        <span class="skill">Jquery</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/angular.png" alt="logotipo de Angular" class="logo"><br>
-        <span class="skill">Angular</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/vue.png" alt="logotipo de Vue JS" class="logo"><br>
-        <span class="skill">Vue JS</span>
-      </div>
-      
-
-      <!-- Herramientas Diseño -->
-      <div class="sub-section-title extra">
-        <h2>Diseño UX/UI</h2>
-      </div>
-
-      <div class="herramienta">
-        <img src="assets/img/logos/illustrator.png" alt="logotipo de Illustrator" class="logo"><br>
-        <span class="skill">Adobe <br>Illustrator</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/photoshop.png" alt="logotipo de Photoshop" class="logo"><br>
-        <span class="skill">Adobe <br>Photoshop</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/xd.png" alt="logotipo de Adobe XD" class="logo"><br>
-        <span class="skill">Adobe XD</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/figma.png" alt="logotipo de Figma" class="logo"><br>
-        <span class="skill">Figma</span>
-      </div>
-
-      <!-- Herramientas Back End y Extras -->
-      <div class="sub-section-title extra">
-        <h2>Back End</h2>
-      </div>
-
-      <div class="herramienta">
-        <img src="assets/img/logos/mysql.png" alt="logotipo de MySQL" class="logo"><br>
-        <span class="skill">MySQL</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/php.png" alt="logotipo de PHP" class="logo"><br>
-        <span class="skill">PHP</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/node.png" alt="logotipo de Node JS" class="logo"><br>
-        <span class="skill">Node JS</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/mongodb.png" alt="logotipo de Mongo DB" class="logo"><br>
-        <span class="skill">Mongo DB</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/firebase.png" alt="logotipo de Firebase" class="logo"><br>
-        <span class="skill">Firebase</span>
-      </div>
-
-      <div class="sub-section-title extra">
-        <h2>Extras</h2>
-      </div>
-
-      <div class="herramienta">
-        <img src="assets/img/logos/git.png" alt="logotipo de Git" class="logo"><br>
-        <span class="skill">Git</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/github.png" alt="logotipo de GitHub" class="logo"><br>
-        <span class="skill">GitHub</span>
-      </div>
-      
-
-      
       
     </div><!-- End Skills -->
 
@@ -260,17 +261,17 @@
   <section id="cv" class="cv">
     <div class="container">
 
-      <div class="section-title">
+      <div class="seccion-titulo">
         <h2>Curriculum Vitae</h2>
-        <p>Mi experiencia</p>
+        <p class="lang" key="cv-miexperiencia">Mi experiencia</p>
       </div>
 
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="cv-titulo">Resumen</h3>
+          <h3 class="cv-titulo lang" key="cv-resumen">Resumen</h3>
           <div class="cv-item pb-0">
             <h4>Agustín Nicolás Guillén</h4>
-            <p><em>Soy Desarrollador Front End & Diseñador UX/UI Trainee buscando mi primer desafío en el mundo IT.</em></p>
+            <p><em class="lang" key="cv-descripcion">Soy Desarrollador Front End & Diseñador UX/UI Trainee buscando mi primer desafío en el mundo IT.</em></p>
             <p>
             <ul>
               <li>La Plata, Buenos Aires, Argentina</li>
@@ -280,91 +281,91 @@
             </p>
           </div>
 
-          <h3 class="cv-titulo">Capacitación</h3>
+          <h3 class="cv-titulo lang" key="cv-capacitacion">Capacitación</h3>
           <div class="cv-item">
-            <h4>Desarrollo Front End - Coderhouse</h4>
-            <h5>2020 - Actualidad</h5>
-            <p><em>Cursado de forma remota</em></p>
-            <p>Primer curso de la carrera de Desarrollador Front-End finalizado. En el curso vimos de contenido HTML5, CSS3, Bootstrap, BEM, SASS, Git y GitHub conocimientos básicos sobre SEO y seguridad. Cursando: JavaScript. Próximo a cursar: React JS.</p>
-            <p>Certificados: </p><a href="https://www.coderhouse.com/certificados/604d6ba0d3065e00911a3598">Desarrollo Web</a>
+            <h4 class="lang" key="cv-capacitacion-desarrollo">Desarrollo Front End - Coderhouse</h4>
+            <h5 class="lang" key="cv-capacitacion-año1">2020 - Actualidad</h5>
+            <p><em class="lang" key="cv-capacitacion-modo1">Cursado de forma remota</em></p>
+            <p class="lang" key="cv-capacitacion-descripcion1">Primer curso de la carrera de Desarrollador Front-End finalizado. En el curso vimos de contenido HTML5, CSS3, Bootstrap, BEM, SASS, Git y GitHub conocimientos básicos sobre SEO y seguridad. Cursando: JavaScript. Próximo a cursar: React JS.</p>
+            <p class="lang" key="cv-capacitacion-certificados1">Certificados: </p><a href="https://www.coderhouse.com/certificados/604d6ba0d3065e00911a3598" key="cv-capacitacion-certificados1-texto">Desarrollo Web</a>
           </div>
           <div class="cv-item">
-            <h4>Producción Musical - Instituto Superior CEM</h4>
+            <h4 class="lang" key="cv-capacitacion-produccion">Producción Musical - Instituto Superior CEM</h4>
             <h5>2016 - 2017</h5>
             <p><em>Mar del Plata, Buenos Aires</em></p>
-            <p>Grabación. Edición de audio. Mezcla de audio. Mastering digital. Sonido en vivo. Arreglos y Composición. Diseño sonoro para videojuegos. Ableton Live, Pro Tools.</p>
+            <p class="lang" key="cv-capacitacion-descripcion2">Grabación. Edición de audio. Mezcla de audio. Mastering digital. Sonido en vivo. Arreglos y Composición. Diseño sonoro para videojuegos. Ableton Live, Pro Tools.</p>
           </div>
-          <h3 class="cv-titulo">Cursos</h3>
+          <h3 class="cv-titulo lang" key="cv-cursos">Cursos</h3>
           <div class="cv-item">
             <h4>Udemy</h4>
             <h5>2021</h5>
-            <p><em>Cursado de forma remota</em></p>
-            <p>Certificados: </p>
+            <p><em class="lang" key="cv-cursos-modo1">Cursado de forma remota</em></p>
+            <p class="lang" key="cv-cursos-certificados">Certificados: </p>
             <a href="https://www.udemy.com/certificate/UC-015b602a-6a7d-4f80-8529-c6b5c23309bc/">TypeScript</a><br>
             <a href="https://www.udemy.com/certificate/UC-8fbc7fb2-2d8d-476d-b7be-91b4d5916111/">JavaScript & Jquery</a>
           </div>
 
-          <h3 class="cv-titulo">Educación</h3>
+          <h3 class="cv-titulo lang" key="cv-educacion">Educación</h3>
           <div class="cv-item">
-            <h4>Diseño Multimedial - Facultad de Artes, UNLP</h4>
-            <h5>2018 - 2019 (incompleta)</h5>
+            <h4 class="lang" key="cv-educacion-diseño">Diseño Multimedial - Facultad de Artes, UNLP</h4>
+            <h5 class="lang" key="cv-educacion-modo1">2018 - 2019 (incompleta)</h5>
             <p><em>La Plata, Buenos Aires</em></p>
-            <p>Diseño UX/UI: Relevamiento e investigación, Sketch, Wireframing, Mockup, Prototipos interactivos en Adobe XD. Photoshop, Illustrator.
+            <p class="lang" key="cv-educacion-descripcion1">Diseño UX/UI: Relevamiento e investigación, Sketch, Wireframing, Mockup, Prototipos interactivos en Adobe XD. Photoshop, Illustrator.
               Tecnología: Fundamentos de programación utilizando Processing 3, HTML 5, CSS 3, Javascript básico, desarrollo FrontEnd de Landing Page.
               Trabajo final de primer año: Desarrollo de un videojuego en grupo, utilizando Unity con programación en C#.</p>
           </div>
         </div>
         <div class="col-lg-6">
-          <h3 class="cv-titulo">Experiencia Laboral</h3>
+          <h3 class="cv-titulo lang" key="cv-laboral">Experiencia Laboral</h3>
           <div class="cv-item">
-            <h4>Encargado de Depósitos - Mateu Sports</h4>
+            <h4 class="lang" key="cv-laboral-mateu">Encargado de Depósitos - Mateu Sports</h4>
             <h5>2019 - 2021</h5>
             <p><em>La Plata, Buenos Aires</em></p>
             <p>
             <ul>
-              <li>Control y reporte de stock de indumentaria deportiva (calzado, ropa y accesorios).</li>
-              <li>Transferencias de mercadería entre sucursales y a depósito central.</li>
-              <li>Control de artículos fallados.</li>
-              <li>Control de orden y buen estado de las instalaciones y mercadería.</li>
+              <li class="lang" key="cv-laboral-mateu-li1">Control y reporte de stock de indumentaria deportiva (calzado, ropa y accesorios).</li>
+              <li class="lang" key="cv-laboral-mateu-li2">Transferencias de mercadería entre sucursales y a depósito central.</li>
+              <li class="lang" key="cv-laboral-mateu-li3">Control de artículos fallados.</li>
+              <li class="lang" key="cv-laboral-mateu-li4">Control de orden y buen estado de las instalaciones y mercadería.</li>
             </ul>
             </p>
           </div>
           <div class="cv-item">
-            <h4>Analista de depósito central - Rossi Deportes</h4>
+            <h4 class="lang" key="cv-laboral-rossi">Analista de depósito central - Rossi Deportes</h4>
             <h5>2017 - 2018</h5>
             <p><em>Mar del Plata, Buenos Aires</em></p>
             <p>
             <ul>
-              <li>Cargar y controlar precios de artículos y hacer seguimiento.</li>
-              <li>Controlar el stock y movimientos de mercadería entre sucursales y/o depósito.</li>
-              <li>Cargar las remitos y devoluciones a proveedores.</li>
-              <li>Realizar toma de inventarios de productos.</li>
-              <li>Uso de softwares: Lince Indumentaria y Excel.</li>
+              <li class="lang" key="cv-laboral-rossi-li1">Cargar y controlar precios de artículos y hacer seguimiento.</li>
+              <li class="lang" key="cv-laboral-rossi-li2">Controlar el stock y movimientos de mercadería entre sucursales y/o depósito.</li>
+              <li class="lang" key="cv-laboral-rossi-li3">Cargar las remitos y devoluciones a proveedores.</li>
+              <li class="lang" key="cv-laboral-rossi-li4">Realizar toma de inventarios de productos.</li>
+              <li class="lang" key="cv-laboral-rossi-li5">Uso de softwares: Lince Indumentaria y Excel.</li>
             </ul>
             </p>
           </div>
           <div class="cv-item">
-            <h4>Asistente administrativo - Constructora Navarro</h4>
+            <h4 class="lang" key="cv-laboral-navarro">Asistente administrativo - Constructora Navarro</h4>
             <h5>2014 - 2016</h5>
             <p><em>Tunuyán, Mendoza</em></p>
             <p>
             <ul>
-              <li>Compra y transporte de materiales de construcción.</li>
-              <li>Trámites de las obras en proceso.</li>
-              <li>Liquidación de sueldos a obreros.</li>
-              <li>Control de empleados en obra.</li>
-              <li>Cobro de cuotas a inversores.</li>
+              <li class="lang" key="cv-laboral-navarro-li1">Compra y transporte de materiales de construcción.</li>
+              <li class="lang" key="cv-laboral-navarro-li2">Trámites de las obras en proceso.</li>
+              <li class="lang" key="cv-laboral-navarro-li3">Liquidación de sueldos a obreros.</li>
+              <li class="lang" key="cv-laboral-navarro-li4">Control de empleados en obra.</li>
+              <li class="lang" key="cv-laboral-navarro-li5">Cobro de cuotas a inversores.</li>
             </ul>
             </p>
           </div>
-          <h3 class="cv-titulo">Idiomas</h3>
+          <h3 class="cv-titulo lang" key="cv-idiomas">Idiomas</h3>
           <div class="cv-item">
-            <h4>Inglés</h4>
-            <h5>Avanzado</h5>
+            <h4 class="lang" key="cv-idiomas-ingles">Inglés</h4>
+            <h5 class="lang" key="cv-idiomas-ingles-avanzado">Avanzado</h5>
           </div>
           <div class="cv-item">
-            <h4>Español</h4>
-            <h5>Nativo</h5>
+            <h4 class="lang" key="cv-idiomas-espanol">Español</h4>
+            <h5 class="lang" key="cv-idiomas-espanol-nativo">Nativo</h5>
           </div>
         </div>
       </div>
@@ -376,24 +377,24 @@
   <section id="portfolio" class="portfolio">
     <div class="container">
 
-      <div class="section-title">
+      <div class="seccion-titulo">
         <h2>Portfolio</h2>
-        <p>Mis Proyectos</p>
+        <p class="lang" key="portfolio-misproyectos">Mis Proyectos</p>
       </div>
 
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-filtro">
-            <li data-filter="*" class="filter-active">Todo</li>
-            <li data-filter=".filter-app">Front End</li>
-            <li data-filter=".filter-web">Diseño UX/UI</li>
+            <li data-filter="*" class="filtro-activo">Todo</li>
+            <li data-filter=".filtro-uxui">Front End</li>
+            <li data-filter=".filtro-web">Diseño UX/UI</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-uxui">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -401,13 +402,13 @@
               <p>App</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -415,13 +416,13 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-uxui">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -429,13 +430,13 @@
               <p>App</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-div">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -443,13 +444,13 @@
               <p>Card</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -457,13 +458,13 @@
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-uxui">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -471,13 +472,13 @@
               <p>App</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-div">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -485,13 +486,13 @@
               <p>Card</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-div">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -499,21 +500,21 @@
               <p>Card</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Saurus Beats</h4>
+              <p>Proyecto web personal</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <!--a href="assets/img/iconos/email.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a-->
+                <a href="portfolio-detalles.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Detalles">Más info</a>
               </div>
             </div>
           </div>
@@ -528,7 +529,7 @@
   <section id="contacto" class="contacto">
     <div class="container">
 
-      <div class="section-title">
+      <div class="seccion-titulo">
         <h2>Contacto</h2>
         <p>Contactame</p>
       </div>
@@ -579,6 +580,7 @@
 </div>
 
   <!-- Archivos JavaScript -->
+  
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
@@ -586,9 +588,9 @@
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <!--<script src="assets/js/particles.js"></script>-->
-  <!--<script src="assets/js/app_particles.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/js/app.js"></script>
+  <script src="assets/js/lang.js"></script>
 
 </body>
 

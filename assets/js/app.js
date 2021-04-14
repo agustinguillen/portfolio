@@ -1,4 +1,3 @@
-
 (function() {
   "use strict";
 
@@ -153,9 +152,9 @@
       on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
+          el.classList.remove('filtro-activo');
         });
-        this.classList.add('filter-active');
+        this.classList.add('filtro-activo');
 
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
