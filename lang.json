@@ -1,7 +1,6 @@
 {
     "es":{
-        "descripcion": "Soy trainee de ",
-        "descripcion-strong": "Desarrollo Front-End & Diseño UX/UI",
+        "descripcion": "Soy trainee de Desarrollo Front-End & Diseño UX/UI",
 
         "inicio": "Inicio",
         "sobremi": "Sobre Mi",
@@ -64,8 +63,7 @@
     },
 
     "en":{
-        "descripcion": "I'm a trainee ",
-        "descripcion-strong": "Front-End Developer & UX/UI Designer",
+        "descripcion": "I'm a Front-End Developer & UX/UI Designer Trainee",
 
         
         "inicio": "Home",
@@ -84,7 +82,7 @@
 
         "cv-miexperiencia": "My resume",
         "cv-resumen": "Summary",
-        "cv-descripcion": "I'm a trainee Front End Developer & UX/UI Designer looking for my first job in the IT world.",
+        "cv-descripcion": "I'm a Front End Developer & UX/UI Designer Trainee looking for my first job in the IT world.",
         "cv-capacitacion": "Training",
         "cv-capacitacion-desarrollo": "Front-End Developer - Coderhouse",
         "cv-capacitacion-año1": "2020 - Present",

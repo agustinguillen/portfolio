@@ -1,7 +1,6 @@
 $.getJSON("https://agustinguillen.github.io/portfolio/lang.json", function(json){
-    //Lenguaje por defecto de la página sessionStorage.setItem("lang", "idioma")"
     
-   $('#traducir').click(function(){
+   $('.traducir').click(function(){
 
        var lang = $(this).attr('id');
 
@@ -9,4 +8,4 @@ $.getJSON("https://agustinguillen.github.io/portfolio/lang.json", function(json)
            $(this).text(json[lang][$(this).attr('key')])
        })
    })
-  });//Get json AJAX
+  });
