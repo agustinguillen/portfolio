@@ -5,7 +5,7 @@ $.getJSON("https://agustinguillen.github.io/portfolio/lang.json", function(json)
        console.log("al menos el boton xd");
        let lang = $(this).attr('id');
        $('lang').each(function(index, value){
-           $(this).html(json[lang][$(this).att('key')])
+           $(this).html(json[lang][$(this).attr('key')])
        })
    })
   });//Get json AJAX
