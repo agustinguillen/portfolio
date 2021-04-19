@@ -1,4 +1,4 @@
-$.getJSON("assets/js/lang.json", function(json){
+$.getJSON("https://agustinguillen.github.io/portfolio/lang.json", function(json){
     //Lenguaje por defecto de la página sessionStorage.setItem("lang", "idioma")"
     
    $('#traducir').click(function(){
