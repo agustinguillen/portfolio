@@ -149,7 +149,7 @@
 
       let portfolioFilters = select('#portfolio-filtro li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#portfolio-filtro li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filtro-activo');
@@ -162,33 +162,6 @@
       }, true);
     }
 
-  });
-
-  /*Inicializar lightbox de portfolio*/
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /*Inicializar lightbox detalles de portfolio*/
-  const portfolioDetailsLightbox = GLightbox({
-    selector: '.portfolio-details-lightbox',
-    width: '90%',
-    height: '90vh'
-  });
-
-  /*Slider detalles de portfolio*/
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
   });
 
 })()

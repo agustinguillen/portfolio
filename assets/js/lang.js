@@ -3,8 +3,6 @@ $.getJSON("https://agustinguillen.github.io/portfolio/lang.json", function(json)
     
    $('#traducir').click(function(){
 
-       console.log("al menos el boton xd");
-       
        var lang = $(this).attr('id');
 
        $('.lang').each(function(index, value){
