@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Heebo", sans-serif;
   text-shadow: 0 0 7px rgba(255, 255, 255, 0.15);
 }
 
@@ -423,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -442,10 +442,10 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 45px;
   left: 15px;
-  padding: 10px 0;
+  padding: 5px 0;
   overflow-y: auto;
   transition: 0.5s;
-  border: 3px outset rgba(255, 255, 255, 0.521);
+  border: 3px outset rgba(132, 1, 255, 0.521);
 }
 
 .navbar-mobile li {
@@ -471,7 +471,7 @@ section {
   top: 140px;
   bottom: 100%;
   opacity: 0;
-  transition: ease-in-out 0.4s;
+  transition: linear 0.5s;
   z-index: 2;
 }
 
@@ -483,10 +483,8 @@ section.section-show {
 }
 
 section .container {
-  /*background: rgba(0, 0, 0, 0.9);*/
   background-color: transparent;
   padding: 10px;
-  border-radius: 30px;
 }
 
 
@@ -517,7 +515,7 @@ section .container {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 .seccion-titulo p {
@@ -526,7 +524,7 @@ section .container {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Heebo", sans-serif;
   color: #fff;
 }
 
@@ -543,7 +541,7 @@ section .container {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -688,8 +686,8 @@ section .container {
 
 .cv .cv-item {
   padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  margin-top: 5px;
+  border-left: 2px dotted rgba(255, 50, 255, 0.1);
   position: relative;
 }
 
@@ -705,7 +703,8 @@ section .container {
 
 .cv .cv-item h5 {
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -764,7 +763,7 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.4s ease-in-out;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 
 .portfolio #portfolio-filtro li:hover, .portfolio #portfolio-flters li.filtro-activo {
@@ -962,13 +961,13 @@ section .container {
   color: #d336eb;
 }
 
-.contacto .php-email-form {
+.contacto .formulario {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 30px;
 }
 
-.contacto .php-email-form .error-message {
+.contacto .formulario .error-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   background: #ed3c0d;
@@ -977,11 +976,11 @@ section .container {
   font-weight: 600;
 }
 
-.contacto .php-email-form .error-message br + br {
+.contacto .formulario .error-message br + br {
   margin-top: 25px;
 }
 
-.contacto .php-email-form .sent-message {
+.contacto .formulario .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   background: #d400f5;
@@ -990,14 +989,14 @@ section .container {
   font-weight: 600;
 }
 
-.contacto .php-email-form .loading {
+.contacto .formulario .loading {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   text-align: center;
   padding: 15px;
 }
 
-.contacto .php-email-form .loading:before {
+.contacto .formulario .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1010,7 +1009,7 @@ section .container {
   animation: animate-loading 1s linear infinite;
 }
 
-.contacto .php-email-form input, .contact .php-email-form textarea {
+.contacto .formulario input, .contact .formulario textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1020,34 +1019,34 @@ section .container {
   color: #fff;
 }
 
-.contacto .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contacto .formulario input:focus, .contact .formulario textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
 }
 
-.contacto .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+.contacto .formulario input::-webkit-input-placeholder, .contact .formulario textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contacto .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contacto .formulario input::-moz-placeholder, .contact .formulario textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contacto .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contacto .formulario input::placeholder, .contact .formulario textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contacto .php-email-form input {
+.contacto .formulario input {
   padding: 10px 15px;
 }
 
-.contacto .php-email-form textarea {
+.contacto .formulario textarea {
   padding: 12px 15px;
 }
 
-.contacto .php-email-form button[type="submit"] {
+.contacto .formulario button[type="submit"] {
   background: #d336eb;
   border: 0;
   padding: 10px 30px;
@@ -1056,7 +1055,7 @@ section .container {
   border-radius: 4px;
 }
 
-.contacto .php-email-form button[type="submit"]:hover {
+.contacto .formulario button[type="submit"]:hover {
   background: #d336eb;
 }
 
