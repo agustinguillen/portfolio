@@ -15,6 +15,12 @@
         "sobremi-texto": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
         "sobremi-habilidades": "Mis habilidades",
         "sobremi-diseño": "Diseño UX/UI",
+        "sobre-mi-softskill-1": "Creatividad",
+        "sobre-mi-softskill-2": "Trabajo en equipo",
+        "sobre-mi-softskill-3": "Comunicación",
+        "sobre-mi-softskill-4": "Voluntad de aprender",
+        "sobre-mi-softskill-5": "Resolución de problemas",
+        "sobre-mi-softskill-6": "Adaptabilidads",
 
         "cv-miexperiencia": "Mi experiencia",
         "cv-resumen": "Resumen",
@@ -59,7 +65,10 @@
         "cv-idiomas-espanol": "Español",
         "cv-idiomas-espanol-nativo": "Nativo",
 
-        "portfolio-misproyectos": "Mis Proyectos"
+        "portfolio-misproyectos": "Mis Proyectos",
+
+        "contacto-titulo": "Contacto",
+        "contacto-subtitulo": "Contactame"
     },
 
     "en":{
@@ -73,12 +82,18 @@
         "sobremi-titulo": "About",
         "sobremi-subtitulo": "Myself",
         "sobremi-campo": "Front End Developer &amp; UX/UI Designer",
-        "sobremi-subcampo": "I'm a trainee Front End Developer & UX/UI Designer looking for my first opportunity in the IT world.",
+        "sobremi-subcampo": "I'm a Front End Developer & UX/UI Designer Trainee looking for my first opportunity in the IT world.",
         "sobremi-telefono": "Phone",
         "sobremi-ciudad": "Ciudad",
         "sobremi-texto": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
         "sobremi-habilidades": "My skills",
         "sobremi-diseño": "UX/UI Design",
+        "sobre-mi-softskill-1": "Creativity",
+        "sobre-mi-softskill-2": "Teamwork",
+        "sobre-mi-softskill-3": "Communication",
+        "sobre-mi-softskill-4": "Willingness to learn",
+        "sobre-mi-softskill-5": "Problem solving",
+        "sobre-mi-softskill-6": "Adaptability",
 
         "cv-miexperiencia": "My resume",
         "cv-resumen": "Summary",
@@ -123,7 +138,10 @@
         "cv-idiomas-espanol": "Spanish",
         "cv-idiomas-espanol-nativo": "Native language",
 
-        "portfolio-misproyectos": "My Projects"
+        "portfolio-misproyectos": "My Projects",
+
+        "contacto-titulo": "Contact",
+        "contacto-subtitulo": "Contact me"
 
     }
 }
