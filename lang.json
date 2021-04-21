@@ -1,6 +1,6 @@
 {
     "es":{
-        "descripcion": "Soy trainee de Desarrollo Front-End & Diseño UX/UI",
+        "descripcion": "Desarrollador Front-End & Diseño UX/UI Junior",
 
         "inicio": "Inicio",
         "sobremi": "Sobre Mi",
@@ -9,7 +9,7 @@
         "sobremi-titulo": "Sobre Mi",
         "sobremi-subtitulo": "Te cuento acerca de mi",
         "sobremi-campo": "Desarrollo Front End & Diseño UX/UI",
-        "sobremi-subcampo": "Soy Desarrollador Front End & Diseñador UX/UI Trainee buscando mi primer desafío en el mundo IT.",
+        "sobremi-subcampo": "Soy Desarrollador Front End & Diseñador UX/UI Junior buscando mi primer desafío en el mundo IT.",
         "sobremi-telefono": "Teléfono",
         "sobremi-ciudad": "Ciudad",
         "sobremi-texto": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
@@ -24,7 +24,7 @@
 
         "cv-miexperiencia": "Mi experiencia",
         "cv-resumen": "Resumen",
-        "cv-descripcion": "Soy Desarrollador Front-End & Diseñador UX/UI Trainee buscando mi primer desafío en el mundo IT.",
+        "cv-descripcion": "Soy Desarrollador Front-End & Diseñador UX/UI Jr buscando mi primer desafío en el mundo IT.",
         "cv-capacitacion": "Capacitación",
         "cv-capacitacion-desarrollo": "Desarrollo Front-End - Coderhouse",
         "cv-capacitacion-año1": "2020 - Actualidad",
@@ -66,13 +66,17 @@
         "cv-idiomas-espanol-nativo": "Nativo",
 
         "portfolio-misproyectos": "Mis Proyectos",
+        "portfolio-filtro-todo": "Todo",
 
         "contacto-titulo": "Contacto",
-        "contacto-subtitulo": "Contactame"
+        "contacto-subtitulo": "Contactame",
+        "contacto-telefono": "Teléfono",
+        "contacto-disclaimer": "*Este formulario funciona con la aplicación de terceros FORMSPREE. Para más información, visite ",
+        "contacto-enviar": "Enviar"
     },
 
     "en":{
-        "descripcion": "I'm a Front-End Developer & UX/UI Designer Trainee",
+        "descripcion": "Junior Front-End Developer & UX/UI Designer",
 
         
         "inicio": "Home",
@@ -82,7 +86,7 @@
         "sobremi-titulo": "About",
         "sobremi-subtitulo": "Myself",
         "sobremi-campo": "Front End Developer & UX/UI Designer",
-        "sobremi-subcampo": "I'm a Front End Developer & UX/UI Designer Trainee looking for my first opportunity in the IT world.",
+        "sobremi-subcampo": "I'm a Junior Front End Developer & UX/UI Designer looking for my first opportunity in the IT world.",
         "sobremi-telefono": "Phone",
         "sobremi-ciudad": "Ciudad",
         "sobremi-texto": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
@@ -97,7 +101,7 @@
 
         "cv-miexperiencia": "My resume",
         "cv-resumen": "Summary",
-        "cv-descripcion": "I'm a Front End Developer & UX/UI Designer Trainee looking for my first job in the IT world.",
+        "cv-descripcion": "I'm a Junior Front End Developer & UX/UI Designer looking for my first job in the IT world.",
         "cv-capacitacion": "Training",
         "cv-capacitacion-desarrollo": "Front-End Developer - Coderhouse",
         "cv-capacitacion-año1": "2020 - Present",
@@ -139,9 +143,12 @@
         "cv-idiomas-espanol-nativo": "Native language",
 
         "portfolio-misproyectos": "My Projects",
+        "portfolio-filtro-todo": "All",
 
         "contacto-titulo": "Contact",
-        "contacto-subtitulo": "Contact me"
-
+        "contacto-subtitulo": "Contact me",
+        "contacto-telefono": "Phone",
+        "contacto-disclaimer": "*This form works with the third party application FORMSPREE. For more information visit ",
+        "contacto-enviar": "Send"
     }
 }

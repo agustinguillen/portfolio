@@ -159,4 +159,9 @@
 
   });
 
+  setTimeout(function() {
+    $('#nombre').addClass('glitch');
+  }, 1000);
+  
+
 })()
