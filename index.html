@@ -25,6 +25,7 @@
 
   <!-- Archivo principal CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/glitch.css" rel="stylesheet">
 
 </head>
 
@@ -47,11 +48,11 @@
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
-
+        
         <div class="redes-links text-focus-in">
           <a href="https://www.linkedin.com/in/agustin-nicolas-guillen/" id="linkedin"><img src="assets/img/iconos/linkedin.png" class="redes"></img></a>
           <a href="https://www.github.com/agustinguillen" id="github"><img src="assets/img/iconos/github.png" class="redes"></img></a>
-          <a href="https://www.behance.net/agustinnguillen" id="behance"><img src="assets/img/iconos/behance.png" class="redes"></img></a>
+          <!--<a href="#" id="behance"><img src="assets/img/iconos/behance.png" class="redes"></img></a>-->
         </div>
 
         <div id="divIdioma" class="redes-links" data-bs-toggle="tooltip" data-bs-placement="bottom">
@@ -63,6 +64,7 @@
           </button>
           </div>
     </div>
+    <img src="assets/img/fotos/portfolio.png" alt="Foto de Agustin Guillen" class="imagen-inicio">
   </header><!-- Fin header -->
  
 
@@ -81,25 +83,24 @@
         
         <div class="col-lg-8 pt-4 pt-lg-0 contenido" data-aos="fade-right">
           <h3 class="lang" key="sobremi-campo">Desarrollo Front-End &amp; Diseño UX/UI</h3>
-          <p class="fst-italic lang" key="sobremi-subcampo">
-            Soy Desarrollador Front-End & Diseñador UX/UI Junior buscando mi primer desafío en el mundo IT.
+          <p class="lang" key="sobremi-texto">
+              Soy estudiante de la carrera de Desarrollo Front-End en Coderhouse, he completado los dos primeros cursos Desarrollo Web y JavaScript. Próximamente voy a cursar la capacitación de React JS, que comienza en mayo.
+              Además, estoy aprendiendo de manera autodidacta tecnologías como Angular 11 y MySQL con material de Udemy y fuentes oficiales. Tengo conocimientos de Diseño de Experiencia de Usuario y herramientas de diseño. Soy una persona 
+              creativa, proactiva y responsable, adaptable a cualquier equipo de trabajo.
           </p>
           <div class="row">
             <div class="col-lg-6">
               <ul>
                 <li><i class='bx bxs-chevron-right-circle'></i> <strong class="lang" key="sobremi-telefono">Teléfono:</strong> <span>+549 2622 534166</span></li>
-                <li><i class='bx bxs-chevron-right-circle'></i> <strong>Email:</strong> <span>agustinnguillen@gmail.com</span></li>
+                <li><i class='bx bxs-chevron-right-circle'></i> <strong>Mail:</strong> <span>agustinnguillen@gmail.com</span></li>
                 <li><i class='bx bxs-chevron-right-circle'></i> <strong class="lang" key="sobremi-ciudad">Ciudad:</strong> <span>La Plata, Buenos Aires</span></li>
               </ul>
             </div>
           </div>
-          <p class="lang" key="sobremi-texto">
-            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-          </p>
+          
         </div>
         <div class="col-lg-4 sobre-mi-foto" data-aos="fade-left">
-          <img src="assets/img/me.jpg" class="img-fluid" alt="">
+          <img src="assets/img/fotos/portfolio9.png" class="img-fluid" alt="">
         </div>
       </div>
 
@@ -139,10 +140,6 @@
         <img src="assets/img/logos/angular.png" alt="logotipo de Angular" class="logo"><br>
         <span class="skill">Angular</span>
       </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/react.png" alt="logotipo de Vue JS" class="logo"><br>
-        <span class="skill">React JS</span>
-      </div>
       
 
       <!-- Herramientas Diseño -->
@@ -175,14 +172,6 @@
       <div class="herramienta">
         <img src="assets/img/logos/mysql.png" alt="logotipo de MySQL" class="logo"><br>
         <span class="skill">MySQL</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/node.png" alt="logotipo de Node JS" class="logo"><br>
-        <span class="skill">Node JS</span>
-      </div>
-      <div class="herramienta">
-        <img src="assets/img/logos/mongodb.png" alt="logotipo de Mongo DB" class="logo"><br>
-        <span class="skill">Mongo DB</span>
       </div>
       <div class="herramienta">
         <img src="assets/img/logos/firebase.png" alt="logotipo de Firebase" class="logo"><br>
@@ -398,7 +387,7 @@
           <ul id="portfolio-filtro">
             <li data-filter="*" class="filtro-activo lang" key="portfolio-filtro-todo">Todo</li>
             <li data-filter=".filtro-frontend">Front-End</li>
-            <li data-filter=".filtro-uxui">Diseño UX/UI</li>
+            <li data-filter=".filtro-uxui" class="lang" key="portfolio-filtro-diseño">Diseño UX/UI</li>
           </ul>
         </div>
       </div>
@@ -407,11 +396,26 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filtro-frontend">
           <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/velvet.jpg" class="img-fluid" alt="Ilustración de aplicación de películas">
+            <div class="portfolio-info">
+              <h4>VELVET</h4>
+              <p><strong>Proyecto Autodidacta</strong></p>
+              <p>Angular 11 - Bootstrap - Postman</p>
+              <div class="d-flex justify-content-center mt-3 portfolio-links">
+                <a href="https://github.com/agustinguillen/velvet"><i class="bx bx-code-alt mx-3"></i></a>
+                <a href="https://agustinguillen.github.io/velvet/"><i class="bx bx-link mx-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-frontend">
+          <div class="portfolio-wrap">
             <img src="assets/img/portfolio/budger.jpg" class="img-fluid" alt="Ilustración de aplicación de presupuesto">
             <div class="portfolio-info">
-              <h4>Budger</h4>
+              <h4>BUDGER</h4>
               <p><strong>Proyecto Final - Coderhouse</strong></p>
-              <p>Jquery - Vanilla JS - AJAX <br> SCSS - Bootstrap</p>
+              <p>Jquery - Vanilla JS - AJAX <br> SCSS - Bootstrap - Postman</p>
               <div class="d-flex justify-content-center mt-3 portfolio-links">
                 <a href="https://github.com/agustinguillen/budger"><i class="bx bx-code-alt mx-3"></i></a>
                 <a href="https://agustinguillen.github.io/budger/"><i class="bx bx-link mx-3"></i></a>
@@ -424,12 +428,27 @@
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/saurus_beats.jpg" class="img-fluid" alt="Ilustración de proyecto web personal">
             <div class="portfolio-info">
-              <h4>Saurus Beats</h4>
+              <h4>SAURUS BEATS</h4>
               <p><strong>Proyecto Final - Coderhouse</strong></p>
               <p>SCSS - Bootstrap</p>
               <div class="d-flex justify-content-center mt-3 portfolio-links">
                 <a href="https://github.com/agustinguillen/saurusbeats"><i class="bx bx-code-alt mx-3"></i></a>
                 <a href="https://agustinguillen.github.io/saurusbeats/"><i class="bx bx-link mx-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filtro-uxui">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/taidi.jpg" class="img-fluid" alt="Ilustración de aplicación de tareas">
+            <div class="portfolio-info">
+              <h4>TAIDI</h4>
+              <p><strong>En proceso</strong></p>
+              <p>Diseño UX / UI <br>
+              App de tareas - Colaboración</p>
+              <div class="d-flex justify-content-center mt-3 portfolio-links">
+                
               </div>
             </div>
           </div>
@@ -453,7 +472,7 @@
         <div class="col-md-6 mt-2 d-flex align-items-stretch">
           <div class="info-box">
             <img src="assets/img/iconos/email.png" class="iconos"></img>
-            <h3>Email</h3>
+            <h3 class="lang" key="contacto-email">Email</h3>
             <p>agustinnguillen@gmail.com</p>
           </div>
         </div>

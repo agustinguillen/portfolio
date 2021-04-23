@@ -12,7 +12,7 @@
         "sobremi-subcampo": "Soy Desarrollador Front End & Diseñador UX/UI Junior buscando mi primer desafío en el mundo IT.",
         "sobremi-telefono": "Teléfono",
         "sobremi-ciudad": "Ciudad",
-        "sobremi-texto": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
+        "sobremi-texto": "Soy estudiante de la carrera de Desarrollo Front-End en Coderhouse, he completado los dos primeros cursos Desarrollo Web y JavaScript. Próximamente voy a cursar la capacitación de React JS, que comienza en mayo. Además, estoy aprendiendo de manera autodidacta tecnologías como Angular 11 y MySQL con material de Udemy y fuentes oficiales. Tengo conocimientos de Diseño de Experiencia de Usuario y herramientas de diseño. Soy una persona creativa, proactiva y responsable, adaptable a cualquier equipo de trabajo.",
         "sobremi-habilidades": "Mis habilidades",
         "sobremi-diseño": "Diseño UX/UI",
         "sobre-mi-softskill-1": "Creatividad",
@@ -67,9 +67,11 @@
 
         "portfolio-misproyectos": "Mis Proyectos",
         "portfolio-filtro-todo": "Todo",
+        "portfolio-filtro-diseño": "Diseño UX/UI",
 
         "contacto-titulo": "Contacto",
         "contacto-subtitulo": "Contactame",
+        "contacto-email": "Email",
         "contacto-telefono": "Teléfono",
         "contacto-disclaimer": "*Este formulario funciona con la aplicación de terceros FORMSPREE. Para más información, visite ",
         "contacto-enviar": "Enviar"
@@ -88,8 +90,8 @@
         "sobremi-campo": "Front End Developer & UX/UI Designer",
         "sobremi-subcampo": "I'm a Junior Front End Developer & UX/UI Designer looking for my first opportunity in the IT world.",
         "sobremi-telefono": "Phone",
-        "sobremi-ciudad": "Ciudad",
-        "sobremi-texto": "Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.",
+        "sobremi-ciudad": "City",
+        "sobremi-texto": "I'm a Front-End student at Coderhouse, I have completed the first two courses Web Development and JavaScript. Soon I'm starting the React JS course, dated May. I'm also learning Angular 11 and MySQL with Udemy courses and official sources. I have UX/UI Design knowledge and I can handle different design tools. I'm a creative, proactive and responsable person, adaptable to any teamwork.",
         "sobremi-habilidades": "My skills",
         "sobremi-diseño": "UX/UI Design",
         "sobre-mi-softskill-1": "Creativity",
@@ -144,9 +146,11 @@
 
         "portfolio-misproyectos": "My Projects",
         "portfolio-filtro-todo": "All",
+        "portfolio-filtro-diseño": "UX/UI Design",
 
         "contacto-titulo": "Contact",
         "contacto-subtitulo": "Contact me",
+        "contacto-email": "Mail",
         "contacto-telefono": "Phone",
         "contacto-disclaimer": "*This form works with the third party application FORMSPREE. For more information visit ",
         "contacto-enviar": "Send"
