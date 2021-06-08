@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: 0;
   right: 50px;
-  height: 500px;
+  height: 300px;
   float: right;
   z-index: -100;
   margin-left: 0;
@@ -137,20 +137,20 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width:768px){
   #header .imagen-inicio{
     right: 0;
-    height: 450px;
+    height: 150px;
   }
 }
 
 @media (max-width:400px){
   #header .imagen-inicio{
-    height: 350px;
+    height: 200px;
 
   }
 }
 
 @media (max-width:340px){
   #header .imagen-inicio{
-    height: 280px;
+    height: 180px;
 
   }
 }
