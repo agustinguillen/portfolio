@@ -137,20 +137,20 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width:768px){
   #header .imagen-inicio{
     right: 0;
-    height: 150px;
+    height: 35vh;
   }
 }
 
 @media (max-width:400px){
   #header .imagen-inicio{
-    height: 200px;
+    height: 30vh;
 
   }
 }
 
 @media (max-width:340px){
   #header .imagen-inicio{
-    height: 250px;
+    height: 20vh;
 
   }
 }
